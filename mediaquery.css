@@ -1,0 +1,280 @@
+/* General Navbar */
+@media (max-width: 1022px) {
+  /* Navbar */
+  nav {
+    height: 6.5vh;
+  }
+  
+  .navicon {
+    display: block;
+  }
+  
+  .respnavbar {
+    display: block;
+  }
+  
+  .responsivediv {
+    display: flex;
+    position: absolute;
+    top: 25%;
+    right: 3%;
+  }
+  
+  .navlinks {
+    display: block;
+  }
+  
+  .navlink {
+    display: none;
+  }
+
+  /* Hero Page */
+  .hero-banner img {
+    content: url("assets/iphone 16 pro/hero_iphone16pro_avail__fnf0f9x70jiy_small.jpg");
+    height: auto;
+    line-height: 0;
+  }
+
+  .hero-text h1, .hero-text2 h1, .hero-text3 h1 {
+    font-size: 2.4rem;
+    margin-top: -1rem;
+  }
+
+  .hero-text p, .hero-text2 p, .hero-text3 p {
+    font-size: 18px;
+  }
+}
+
+/* Small Desktop - Below 1350px */
+@media (max-width: 1350px) {
+  .products-container {
+    grid-template-columns: 1fr 1fr; /* Two columns for larger layouts */
+    gap: 18px;
+    padding: 18px;
+  }
+
+  .product-content {
+    bottom: 8%;
+    font-size: 1rem;
+  }
+
+  .product-text {
+    font-size: 26px;
+    margin-top: 0;
+  }
+
+  .product-para {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  button.primary, button.secondary {
+    padding: 0.7rem 1.2rem;
+    font-size: 15px;
+  }
+}
+
+/* Landscape Tablets - Below 1200px */
+@media (max-width: 1200px) {
+  .products-container {
+    grid-template-columns: 1fr 1fr; /* Two columns layout */
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .product-content {
+    bottom: 10%;
+  }
+
+  .product-text {
+    font-size: 24px;
+    margin-top: 0;
+  }
+
+  .product-para {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  button.primary, button.secondary {
+    padding: 0.6rem 1rem;
+    font-size: 14px;
+  }
+}
+
+/* Tablets - Below 940px */
+@media (max-width: 940px) {
+  .products-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .product-content {
+    bottom: 8%;
+
+  }
+
+  .product-text {
+    font-size: 22px;
+    margin-top: 0;
+  }
+
+  .product-para {
+    font-size: 14px;
+  }
+
+  button.primary, button.secondary {
+    padding: 0.5rem 0.9rem;
+    font-size: 13px;
+  }
+}
+
+/* Small Tablets - Below 700px */
+@media (max-width: 700px) {
+  .products-container {
+    padding: 10px;
+  }
+
+  .product-content {
+    bottom: 5%;
+
+  }
+
+  .product-text {
+    font-size: 20px;
+    margin-top: 0;
+  }
+
+  .product-para {
+    font-size: 13px;
+  }
+
+  button.primary, button.secondary {
+    padding: 0.4rem 0.8rem;
+    font-size: 12px;
+  }
+}
+
+/* Phones - Below 550px */
+@media (max-width: 550px) {
+  .products-container {
+    padding: 8px;
+  }
+
+  .product-content {
+    bottom: 5%;
+
+  }
+
+  .product-text {
+    font-size: 18px;
+    margin-top: -4rem;
+  }
+
+  .product-para {
+    font-size: 12px;
+  }
+
+  button.primary, button.secondary {
+    padding: 0.3rem 0.7rem;
+    font-size: 11px;
+  }
+}
+
+/* Footer: Below 1200px */
+@media (max-width: 1200px) {
+  .footer-columns {
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .footer-content h6 {
+    font-size: 11px;
+    padding: 0 10px;
+  }
+
+  .footer-list a {
+    font-size: 12px;
+  }
+
+  .footer {
+    padding: 20px 5rem 0 5rem;
+  }
+}
+
+/* Footer: Below 768px */
+@media (max-width: 768px) {
+  .footer-columns {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .footer-content h6 {
+    font-size: 10px;
+    padding: 0 10px;
+  }
+
+  .footer-list a {
+    font-size: 11px;
+  }
+
+  .footer {
+    padding: 20px 3rem 0 3rem;
+  }
+
+  .list h6 {
+    font-size: 10px;
+  }
+
+}
+
+/* Footer: Below 480px */
+@media (max-width: 480px) {
+  .products-container {
+    padding: 8px;
+  }
+
+  .product-content {
+    bottom: 5%;
+  }
+
+  .product-text {
+    font-size: 18px;
+    white-space: nowrap;
+  }
+
+  .product-para {
+    font-size: 12px;
+
+  }
+
+  button.primary, button.secondary {
+    padding: 0.3rem 0.7rem;
+    font-size: 11px;
+  }
+
+  .footer-columns {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .footer-content h6 {
+    font-size: 9px;
+    padding: 0 10px;
+  }
+
+  .footer-list a {
+    font-size: 10px;
+  }
+
+  .footer {
+    padding: 20px 1rem 0 1rem;
+  }
+
+  .list h6 {
+    font-size: 9px;
+  }
+
+}
